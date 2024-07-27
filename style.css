@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.choice:hover{
+    opacity: 50%;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 3rem;;
+}
+
+#paper{
+    margin-right: 2rem;
+}
+
+.scores{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#userscore, #compscore{
+    text-align: center;
+    font-size: 4rem;
+}
+
+#msg{
+    margin: 3rem;
+    font-size: 4rem;
+    display: inline;
+}
